@@ -1,0 +1,152 @@
+.header {
+    height: 78px;
+    width: 100%;
+    line-height: 20px;
+    font-size: 1.125rem;
+    padding: 25px 30px;
+  }
+  
+  .appHeading {
+    max-width: 580px;
+    font-weight: 900;
+    font-size: 1.875rem;
+    text-align: center;
+    margin: 30px auto 0;
+  }
+  
+  .appHeading.subheading {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+  }
+  
+.formContainer {
+    max-width: 580px;
+    margin: auto;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px -5px 35px rgba(205, 205, 212, 0.1);
+}
+
+.form--alternativeLoginContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form--alternativeButton {
+    width: 240px;
+    padding: 14px 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    color:#4E5D78;
+    display: flex;
+    align-items: center;
+}
+
+.form--alternativeButton svg {
+    margin-right: 18px;
+    position: relative;
+    top: -2px
+}
+
+.form--dividerContainer {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.form--divider {
+    width: 100%;
+    height: 1px;
+    border-color: rgba(78, 93, 120, 0.2);
+    border-bottom: none;
+}
+
+.form--dividerText {
+    margin: 0 20px;
+}
+
+.form--credentialsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.form--textInputBox {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form--textInput {
+    font-size: 0.875rem;
+    padding: 15px 20px 15px 50px;
+    border-radius: 10px;
+    border: 1px solid #4E5D7833;
+    width: 100%;
+}
+
+.form--inputIcon {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 20px;
+    fill: #4E5D78;
+}
+
+.form--passIcon {
+    position: absolute;
+    top: calc(50% - 8px);
+    right: 20px;
+    fill: #4E5D78;
+}
+
+.form--dateInput {
+    font-size: 0.875rem;
+    padding: 15px 20px 15px 50px;
+    border-radius: 10px;
+    border: 1px solid #4E5D7833;
+    width: 240px;
+}
+
+.form--radiosFieldset {
+    font-size: 0.875rem;
+    padding: 15px 20px 15px 50px;
+    border-radius: 10px;
+    border: 1px solid #4E5D7833;
+    width: 240px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form--birthGenderSubset{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form--submitButton {
+    width: 100%;
+    padding: 14px 35px;
+    font-size: 1rem;
+    background-color: #377DFF;
+    color:#fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.form--haveAccount {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.form--signInLink, .form--signInLink:visited {
+    color: #377DFF;
+    text-decoration: none; 
+    margin-left: 20px;
+}
